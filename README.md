@@ -69,19 +69,12 @@ var options = {
     },
     // ----- Browsersync ----- //
     browserSync: {
-      // Put your local site URL here to prevent Browsersync
-      // from prompting you to add additional scripts to your page.
-      // open: 'external',
-      //xip: true,
-      //logConnections: true
-
       server: {baseDir: ['assets']},
       startPath: "/pages",
       port: 3005,
       online: false,
 
       open: true,
-      //ghostMode: false,
       logConnections: true,
     },
 
